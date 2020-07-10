@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
+
 
 public class CamControl : MonoBehaviour
 {
@@ -8,6 +10,9 @@ public class CamControl : MonoBehaviour
     public float speed = 150;
     //회전각도를 직접 제어하자
     float angleX, angleY;
+
+    //카메라
+   
 
     void Update()
     {
